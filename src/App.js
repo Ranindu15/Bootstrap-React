@@ -108,10 +108,10 @@ function App() {
     </section>
 
 
-    {/*<section className="testimonials text-center bg-light">*/}
-    {/*  <div className="container">*/}
-    {/*    <h2 className="mb-5">What people are saying...</h2>*/}
-    {/*    <div className="row">*/}
+    <section className="testimonials text-center bg-light">
+      <div className="container">
+        <h2 className="mb-5">What people are saying...</h2>
+    <div className="row">
 
 
     {/*       /!*<img className="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">*!/*/}
@@ -137,10 +137,9 @@ function App() {
     {/*            <p className="font-weight-light mb-0">"Thanks so much for making these free resources available to*/}
     {/*              us!"</p>*/}
     {/*          </img>*/}
-    {/*        </div>*/}
-    {/*      </div>*/}
-
-    {/*</section>*/}
+            </div>*
+          </div>
+</section>
 
 
     <section className="call-to-action text-white text-center">
