@@ -5,11 +5,7 @@ class Edit extends Component {
     render() {
         return (
             <div>
-                <Router>
-                    <div className="container">
-
-                    </div>
-                </Router>
+                
             </div>
         );
     }
