@@ -19,3 +19,17 @@ export default class Create extends Component{
                                 <label className="font-weight-bold text-black-50">Add Hero Planet </label>
                                 <input type="text" className="form-control"/>
                             </div>
+                            <div className="form-group">
+                                <label>Add Hero'z Power </label>
+                                <input type="text" className="form-control"/>
+                            </div>
+
+                            <div className="form-group">
+                                <input type="submit" value="Register Hero" className="btn btn-primary"/>
+                            </div>
+                        </form>
+                </div>
+        );
+    }
+}
+
