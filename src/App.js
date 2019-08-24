@@ -4,9 +4,7 @@ import Imageone from './assests/img/bg-showcase-1.jpg';
 import Imagetwo from './assests/img/bg-showcase-2.jpg';
 import Imagethree from './assests/img/bg-showcase-3.jpg';
 
-
 function App() {
-
   return(
 
   <div className="App">
@@ -17,8 +15,6 @@ function App() {
         <a className="btn btn-primary" href="#">Sign In</a>
       </div>
     </nav>
-
-
     <header className="masthead text-white text-center">
       <div className = "overlay"> </div>
       <div className="container">
@@ -40,16 +36,12 @@ function App() {
         </div>
       </div>
     </header>
-
-
     <section className="features-icons bg-light text-center">
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-
               <i className="fa fa-desktop fa-5x text-primary">
               </i>
-
             <h3>Fully responsive</h3>
             <p className="lead mb-0">Thisthem will look great on any device, no matter the size!</p>
           </div>
@@ -72,8 +64,6 @@ function App() {
       </div>
       </div>
     </section>
-
-
     <section className="showcase">
       <div className="container-fluid p-0">
         <div className="row no-gutters">
@@ -105,41 +95,6 @@ function App() {
           </div>
         </div>
       </div>
-    </section>
-
-
-    <section className="testimonials text-center bg-light">
-      <div className="container">
-        <h2 className="mb-5">What people are saying...</h2>
-    <div className="row">
-
-
-    {/*       /!*<img className="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">*!/*/}
-    {/*       /!*     <h5>Margaret E.</h5>*!/*/}
-    {/*       /!*     <p className="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>*!/*/}
-    {/*       /!*</img>*!/*/}
-
-    {/*        </div>*/}
-    {/*      </div>*/}
-    {/*      <div className="col-lg-4">*/}
-    {/*        <div className="testimonial-item mx-auto mb-5 mb-lg-0">*/}
-    {/*          <img className="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">*/}
-    {/*            <h5>Fred S.</h5>*/}
-    {/*            <p className="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of*/}
-    {/*              super nice landing pages.</p>*/}
-    {/*          </img>*/}
-    {/*        </div>*/}
-    {/*      </div>*/}
-    {/*      <div className="col-lg-4">*/}
-    {/*        <div className="testimonial-item mx-auto mb-5 mb-lg-0">*/}
-    {/*          <img className="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">*/}
-    {/*            <h5>Sarah W.</h5>*/}
-    {/*            <p className="font-weight-light mb-0">"Thanks so much for making these free resources available to*/}
-    {/*              us!"</p>*/}
-    {/*          </img>*/}
-            </div>*
-          </div>
-</section>
 
 
     <section className="call-to-action text-white text-center">
@@ -214,7 +169,5 @@ function App() {
     </footer>
   </div>
   );
-
 }
-
 export default App;
